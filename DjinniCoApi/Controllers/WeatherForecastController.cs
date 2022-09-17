@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DjinniCoApi.Controllers
 {
+    #region Controllers
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -30,4 +31,8 @@ namespace DjinniCoApi.Controllers
             .ToArray();
         }
     }
+    #endregion
+
+
+
 }
